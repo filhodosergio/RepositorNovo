@@ -1,0 +1,163 @@
+Algoritmo "Lanchonete"
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Tríplice Coroa
+// Data atual  : 06/10/2022
+Var
+// Seção de Declarações das variáveis
+O1, O2, O3, O4, O5: inteiro
+Q1, Q2, Q3, Q4: inteiro
+V1, V2, V3, V4: inteiro
+
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+V1 <- 10
+V2 <- 18
+V3 <- 15
+V4 <- 5
+O1 <-0
+O2 <-0
+O3 <-0
+O4 <-0
+O5 <-0
+
+repita
+Escreval(" ")
+escreval("##SERGINHO LANCHES##")
+escreval("1 – X-Salada")
+escreval("2 – X-Bacon")
+escreval("3 – X-Egg")
+escreval("4 – Refrigerante")
+escreval("5 – Finalizar pedido")
+escreval("Selecione abaixo o seu pedido:")
+
+leia(O1)
+Escolha(O1)
+Caso 1
+     Escreval ("Você escolheu a opção 1 - X-Salada")
+     Escreval ("Qual a quantidade desejada?")
+
+Caso 2
+     Escreval ("Você escolheu a opção 2 - X-Bacon")
+     Escreval ("Qual a quantidade desejada?")
+Caso 3
+     Escreval ("Você escolheu a opção 3 - X-Egg")
+     Escreval ("Qual a quantidade desejada?")
+Caso 4
+     Escreval ("Você escolheu a opção 4 - Refrigerante")
+     Escreval ("Qual a quantidade desejada?")
+Caso 5
+     Escreval ("Você escolheu a opção 5 - Finalizar pedido")
+     Escreval(" ")
+FimEscolha
+Se(O1)= 5 entao
+     Escreval ("Você finalizou o pedido.")
+     FimAlgoritmo
+Senao
+Leia(Q1)
+escreval("Selecione abaixo a próxima opção:")
+leia(O2)
+Escolha(O2)
+Caso 1
+     Escreval ("Você escolheu a opção 1 - X-Salada")
+     Escreval ("Qual a quantidade desejada?")
+Caso 2
+     Escreval ("Você escolheu a opção 2 - X-Bacon")
+     Escreval ("Qual a quantidade desejada?")
+Caso 3
+     Escreval ("Você escolheu a opção 3 - X-Egg")
+     Escreval ("Qual a quantidade desejada?")
+Caso 4
+     Escreval ("Você escolheu a opção 4 - Refrigerante")
+     Escreval ("Qual a quantidade desejada?")
+Caso 5
+     Escreval ("Você escolheu a opção 5 - Finalizar pedido")
+     Escreval(" ")
+FimEscolha
+FimSe
+Se(O2)= 5 entao
+     Escreval("Pedido finalizado: sua escolha foi o item ",O1," total de R$",(V1*Q1))
+     FimAlgoritmo
+Senao
+leia(Q2)
+escreval("Selecione abaixo a próxima opção:")
+leia(O3)
+Escolha(O3)
+Caso 1
+     Escreval ("Você escolheu a opção 1 - X-Salada")
+     Escreval ("Qual a quantidade desejada?")
+Caso 2
+     Escreval ("Você escolheu a opção 2 - X-Bacon")
+     Escreval ("Qual a quantidade desejada?")
+Caso 3
+     Escreval ("Você escolheu a opção 3 - X-Egg")
+     Escreval ("Qual a quantidade desejada?")
+Caso 4
+     Escreval("Você escolheu a opção 4 - Refrigerante")
+     Escreval("Qual a quantidade desejada?")
+Caso 5
+     Escreval("Você escolheu a opção 5 - Finalizar pedido")
+     Escreval(" ")
+FimEscolha
+FimSe
+Se(O3)= 5 entao
+     Escreval("Pedido finalizado: sua escolha foi o item ",O1," e ", O2," total de R$",(V1*Q1)+(V2*Q2))
+     FimAlgoritmo
+Senao
+leia(Q3)
+escreval("Selecione abaixo a próxima opção:")
+leia(O4)
+Escolha(O4)
+Caso 1
+     Escreval ("Você escolheu a opção 1 - X-Salada")
+     Escreval ("Qual a quantidade desejada?")
+Caso 2
+     Escreval ("Você escolheu a opção 2 - X-Bacon")
+     Escreval ("Qual a quantidade desejada?")
+Caso 3
+     Escreval ("Você escolheu a opção 3 - X-Egg")
+     Escreval ("Qual a quantidade desejada?")
+Caso 4
+     Escreval ("Você escolheu a opção 4 - Refrigerante")
+     Escreval ("Qual a quantidade desejada?")
+Caso 5
+     Escreval ("Você escolheu a opção 5 - Finalizar pedido")
+     Escreval(" ")
+     Escreval(" ")
+FimEscolha
+FimSe
+Se(O4)= 5 entao
+     Escreval("Pedido finalizado: sua escolha foi o item ",O1,", ", O2," e ", O3," total de R$",(V1*Q1)+(V2*Q2)+(V3*Q3))
+     FimAlgoritmo
+Senao
+leia(Q4)
+escreval("Selecione abaixo a próxima opção:")
+leia(O5)
+Escolha(O5)
+Caso 1
+     Escreval ("Você escolheu a opção 1 - X-Salada")
+     Escreval ("Qual a quantidade desejada?")
+Caso 2
+     Escreval ("Você escolheu a opção 2 - X-Bacon")
+     Escreval ("Qual a quantidade desejada?")
+Caso 3
+     Escreval ("Você escolheu a opção 3 - X-Egg")
+     Escreval ("Qual a quantidade desejada?")
+Caso 4
+     Escreval ("Você escolheu a opção 4 - Refrigerante")
+     Escreval ("Qual a quantidade desejada?")
+Caso 5
+     Escreval ("Você escolheu a opção 5 - Finalizar pedido")
+     Escreval(" ")
+     Escreval(" ")
+FimEscolha
+FimSe
+Se(O5)= 5 entao
+  Escreval("Pedido finalizado: sua escolha foi o item ",O1,", ", O2,", ", O3," e ", O4," total de R$",((V1*Q1)+(V2*Q2)+(V3*Q3)+(V4*Q4)))
+Senao
+escreval("")
+FimSe
+ate O5 = 5
+Fimalgoritmo
